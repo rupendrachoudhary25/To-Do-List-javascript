@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://cdn.pixabay.com/photo/2021/03/28/13/02/lists-6131220_1280.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #DFD0B8;
+}
+
+#toDoContainer {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #948979;
+    border-radius: 8px;
+    background-color: rgba(60, 91, 111, 0.9);
+}
+
+#inputText {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #948979;
+    border-radius: 4px;
+    background-color: #153448;
+    color: #DFD0B8;
+}
+
+.taskItem {
+    background: #DFD0B8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #948979;
+    color: #153448;
+}
+
+button {
+    background-color: #948979;
+    color: #DFD0B8;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#addbutton {
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #3C5B6F;
+}
